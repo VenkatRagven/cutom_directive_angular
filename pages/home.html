@@ -1,0 +1,40 @@
+<!-- home.html -->
+    <div class=" text-center" >
+        <h1>Home Page</h1>
+
+        <p>{{ message }}</p>
+    </div><br/><br/>
+	<p class="textBoxDiv"><input type="text" size="40" ng-model="venue" placeholder="search here" /></p><br/><br/>
+	<br/><br/>
+	<div class="cricketDiv container">
+		<div class="col-md-4">
+			<ul>
+			  <!-- <li ng-repeat="x in myData | filter:venue:startsWith"> -->
+				<!-- {{ x.city + ', ' + x.venue }} -->
+			  <!-- </li> -->
+			   <li ng-repeat="x in myData">
+				{{ x.city }}
+			  </li>
+			</ul>
+		</div>	
+		<div class="col-md-4">
+			<ul>
+			  <!-- <li ng-repeat="x in myData | filter:venue:startsWith"> -->
+				<!-- {{ x.city + ', ' + x.venue }} -->
+			  <!-- </li> -->
+			   <li ng-repeat="x in myData ">
+				{{ x.venue }} 
+			  </li>
+			</ul>
+		</div>	
+		<div class="col-md-4">
+			<ul>
+			  <!-- <li ng-repeat="x in myData | filter:venue:startsWith"> -->
+				<!-- {{ x.city + ', ' + x.venue }} -->
+			  <!-- </li> -->
+			   <li ng-repeat="x in myData ">
+				{{ x.winner }}
+			  </li>
+			</ul>
+		</div>	
+	</div>

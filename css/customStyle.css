@@ -1,0 +1,72 @@
+.social-share-wrapper{
+  position: fixed;
+  top:25%;
+  right: 10px;
+  z-index: 1000;
+}
+.facebook-button {
+    width: 52px;
+    height: 51px;
+    background: url(/images/tlp_sprite_img1.png) -66px -7px;
+    cursor: pointer;
+}
+
+.facebook-button:hover {
+    width: 52px;
+    height: 51px;
+    background: url(/images/tlp_sprite_img1.png) -66px -7px;
+    cursor: pointer;
+}
+
+.twitter-share {
+width: 52px;
+height: 55px;
+background: url(/images/tlp_sprite_img1.png) -66px -60px;
+    cursor: pointer;
+}
+
+.twitter-share:hover {
+	width: 52px;
+	height: 55px;
+	background: url(/images/tlp_sprite_img1.png) -66px -60px;
+    cursor: pointer;
+}
+
+.linkedin-share {
+    width: 52px;
+    height: 54px;
+    background: url(/images/tlp_sprite_img1.png) -66px -116px;
+    cursor: pointer;
+    content: "";
+
+}
+
+.linkedin-share:hover {
+     width: 52px;
+    height: 54px;
+    background: url(/images/tlp_sprite_img1.png) -66px -116px;
+    cursor: pointer;
+}
+
+.email-share {
+    width: 52px;
+    height: 57px;
+    background: url(/images/tlp_sprite_img1.png) -66px -170px;
+    cursor: pointer;
+}
+
+.email-share:hover {
+    width: 52px;
+    height: 57px;
+    background: url(/images/tlp_sprite_img1.png) -66px -170px;
+    cursor: pointer;
+}
+
+.cricketDiv{max-height: 300px;
+    
+    overflow: auto;
+    border: 1px solid #333;
+margin: 0 auto;
+}
+.textBoxDiv{width:300px;margin: 0 auto;}
+	
